@@ -9,10 +9,10 @@ public class Task2 {
         int n = console.nextInt();
 
         int i = 0;
-        int sum = 0;
+        double sum = 0;
 
         while (i < n) {
-            int a = console.nextInt();
+            double a = console.nextDouble();
             sum = sum + a;
             i++;
         }
