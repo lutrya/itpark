@@ -103,6 +103,11 @@ public class FieldOfMiracles {
                         }
 
                     if (isFullWord) {
+                        if (isFirstPlayer)
+                            firstPlayerScore += 1000;
+                        else
+                            secondPlayerScore += 1000;
+
                         if (firstPlayerScore > secondPlayerScore)
                             System.out.println("[Якубович] И победителем нашей игры становится первый игрок со счётом " + firstPlayerScore + " очков! У оппонента было " + secondPlayerScore + " очков.");
                         else
